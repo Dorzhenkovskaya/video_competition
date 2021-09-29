@@ -1,0 +1,416 @@
+@media (min-width: 1200px) {
+    .video__wrapper .video__block .vote__text .vote__networks-mini {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .video__wrapper .video__block .vote__text .vote__networks-mini {
+        display: none;
+    }
+
+    .video__wrapper .video__block .video__img img {
+        width: 500px;
+        height: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .video__wrapper .video__block .vote__text .vote__subtitle {
+        margin-top: 32px;
+    }
+
+    .video__wrapper .video__block {
+        flex-direction: column;
+    }
+
+    .video__wrapper .video__block .vote__text {
+        display: block;
+        text-align: center;
+    }
+
+    .video__wrapper .video__block .vote__text .vote__networks {
+        flex-direction: row;
+        height: 50px;
+    }
+
+    .video__wrapper .video__block .vote__text .vote__networks a {
+        margin-right: 70px;
+    }
+
+    .video__wrapper .video__block .vote__text .vote__voice {
+        display: none;
+    }
+
+    .perconal {
+        width: 800px;
+        margin-top: 30px;
+    }
+
+    .company .indicators {
+        display: none;
+    }
+    
+    .company .wrapper {
+        justify-content: center;
+    }
+
+    .franchise {
+        padding-left: 43px;
+    }
+
+    .franchise .row {
+        width: 875px;
+    }
+
+    .franchise .franchise__wrapper {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .consultation .consultation__wrapper{
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .participant .participant__line-gray {
+        width: auto;
+    }
+
+    .participant .row .participant__item {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    h1 {
+        display: block;
+        text-align: center;
+    }
+
+    .video__wrapper .video__block .vote__text .vote__networks {
+        display: none;
+    }
+
+    .video__wrapper .video__block .vote__text .vote__networks-mini {
+        display: block;
+        margin-top: 16px;
+    }
+
+    .perconal {
+        width: 700px;
+        margin-top: 120px;
+    }
+
+    .perconal .perconal__block .perconal__round {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .perconal .perconal__block .perconal__round img {
+        width: 124px;
+        height: 86px;
+    }
+
+    .perconal .perconal__block .perconal__descr .perconal__subtitle {
+        font-size: 20px;
+    }
+
+    .company {
+        margin-top: 242px;
+    }
+
+    .company .company__first {
+        width: auto;
+    }
+
+    .company .company__descr .company__line-gray {
+        width: auto;
+    }
+
+    .company .company__cost .company__cost__line-gray {
+        width: auto;
+    }
+
+    .company .company__cost .company__cost__wrapper .company__cost__wrapper__block .company__cost__subtitle {
+        width: auto;
+    }
+
+    .franchise {
+        padding-left: 0;
+    }
+
+    .franchise .franchise__descr {
+        width: auto;
+    }
+
+    .franchise .franchise__descr .franchise__line-gray {
+        width: auto;
+    }
+
+    .franchise .row {
+        width: auto;
+        margin-right: 0;
+        flex-flow: row wrap;
+        justify-content:space-between
+    }
+
+    .franchise .row .franchise_item {
+        margin-bottom: 8px;
+    }
+
+    .participant .row {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .contest__block {
+        justify-content: center;
+    }
+
+    .video__wrapper .video__block {
+        justify-content: center;
+    }
+
+    .video__wrapper .video__block .vote__text {
+        margin: 0px;
+    }
+
+    .perconal {
+        width: 500px;
+        height: auto;
+        padding: 24px 24px 33px 24px;
+        flex-direction: column;
+        margin-top: 185px;
+    }
+
+    .perconal .perconal__block .perconal__round {
+        margin: 0;
+    }
+
+    .perconal .perconal__block .perconal__descr {
+        margin: 10px 0 25px 15px !important;
+    }
+
+    .perconal .representative__block .representative__wrap {
+        justify-content: center;
+        margin: 0px;
+        margin-bottom: 16px;
+    }
+
+    .company .company__first {
+        width: 570px;
+    }
+
+    .company {
+        margin-top: 380px;
+    }
+
+    .company .company__cost .company__cost__wrapper .company__cost__wrapper__block .company__cost__subtitle {
+        width: 200px;
+    }
+
+    .consultation .consultatioun__wrap-gray {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consultation .consultatioun__wrap-gray .consultation__discussion {
+        margin-top: 0;
+    }
+
+    .consultation .consultatioun__wrap-gray .consultation__discussion .consultation__separation {
+        width: 440px;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.2);
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .participant h2 {
+        text-align: center;
+    }
+
+    .participant .row .participant__item .participant__item__subtitle {
+        text-align: center;
+    }
+
+    .participant .row .participant__item .participant__item__subtitle__mini {
+        text-align: center;
+    }
+
+    .participant .row .participant__item .participant__item__text {
+        text-align: center;
+    }
+
+    .participant .participant__btn {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 39px;
+    }
+}
+
+@media (max-width: 575px) {
+    .contest__block .contest__descr .contest__subtitle {
+        font-size: 14px;
+    }
+
+    .contest__block .contest__descr .contest__text {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 22px !important;
+    }
+
+    .video__wrapper .video__block .video__img img {
+        width: 290px;
+        height: 194px;
+    }
+    
+    .video__wrapper .video__block .vote__text .vote__subtitle-mini {
+        font-size: 14px;
+    }
+
+    .gray {
+        height: auto;
+        padding-bottom: 32px;
+    }
+
+    .perconal {
+        width: 290px;
+        margin-top: 260px;
+    }
+
+    .perconal .perconal__block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perconal .perconal__block .perconal__round img {
+        width: 152px;
+        height: 114px;
+    }
+
+    .perconal .perconal__block .perconal__descr {
+        margin: 16px 0 0 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perconal .perconal__block .perconal__descr .perconal__subtitle-mini {
+        font-size: 15px;
+    }
+
+    .perconal__line-gray {
+        width: 240px;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.2);
+        margin: 24px 0 24px 0;
+    }
+
+    .perconal .representative__block .representative__btn .btn {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .company {
+        margin-top: 520px;
+    }
+
+    .company .company__cost .company__cost__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company .company__cost .company__cost__wrapper .company__cost__wrapper__block {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .company .company__cost .company__cost__wrapper .company__cost__wrapper__block .company__cost__text {
+        width: auto;
+        margin-top: 0;
+    }
+
+    .franchise .row .franchise_item img {
+        width: 167px;
+        height: 167px;
+    }
+
+    .franchise .row .franchise_item {
+        width: 167px;
+        height: 167px;
+    }
+
+    .consultation .consultatioun__wrap-gray {
+        width: 310px;
+    }
+
+    .consultation .consultation__wrap {
+        width: 300px;
+    }
+
+    .consultation .consultation__wrap .consultation-form input {
+        width: 295px;
+    }
+
+    .consultation .consultation__wrap .consultation-form textarea#textfield {
+        width: 295px;
+    }
+
+    .consultation .consultation__wrap .consultation-form .consultation__robot {
+        width: 295px;
+    }
+
+    .consultation .consultation__wrap .consultation-form .btn-consultation {
+        width: 295px;
+    }
+
+    .consultation .consultatioun__wrap-gray .consultation__discussion {
+        margin-left: 0;
+    }
+
+    .consultation .consultatioun__wrap-gray .consultation__discussion .consultation__separation {
+        width: 280px;
+    }
+
+    .consultation .consultatioun__wrap-gray .consultation__discussion h5 {
+        text-align: center;
+    }
+    
+    .consultation .consultation__wrap .consultation__data .consultation__data__text {
+        margin-bottom: 24px;
+    }
+
+    .participant .row .participant__item .participant__img{
+        width: 300px;
+        height: 170px;
+    }
+
+    .participant .row .participant__item .participant__img img {
+        width: 300px;
+        height: 170px;
+    }
+
+    .participant .row .participant__item .participant__item__subtitle {
+        text-align: left;
+    }
+
+    .participant .row .participant__item .participant__item__subtitle__mini {
+        text-align: left;
+    }
+
+    .participant .row .participant__item .participant__item__text {
+        text-align: left;
+    }
+}
